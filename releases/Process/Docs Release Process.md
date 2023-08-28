@@ -21,7 +21,6 @@ The schedule for the time-sensitive release process is as follows:
 * **Finalize Release Notes**: The release notes must be in a PR to `stabilization`, reviewed by the Release Manager and other SIGs, and ready to merge. 
 * **Feature Grid**: After all SIGs update their feature grid, finalize the feature grid in Markdown and create a PR to `stabilization`. 
 * **C++ API Reference Generation**: Generate the API reference for the source code. This includes the frameworks and Gems in the `o3de` repo, as well as canonical Gems in other repos, as determined by Release SIG. 
-    <!-- Follow the instructions in [C++ API Reference Generation](). -->
 * **Documentation Versioning**: For documentation versioning, which refers to the management of multiple docs versions, the current (soon-to-be prior) version of the docs must be branched off of `main` and captured in its own branch. Additionally, the docs version selector in the website must be updated accordingly.
 * **Version Information:** Update the website to display the correct version number for the upcoming release, and ensure that the versions for system requirements are also up-to-date. 
 
@@ -144,6 +143,9 @@ After SIGs have updated their feature grids, the Docs Project Manager can finali
 
 1. Create a PR to `development`. The PR requires a review and approval from the Release Manager. It's also good practice to add a reviewer from each SIG for their awareness and in case any changes need to be made.
 
+
+## C++ API Reference Generation
+Generate the API reference for the source code. This includes the frameworks and Gems in the `o3de` repo, as well as canonical Gems in other repos, as determined by Release SIG. Follow the instructions in [C++ API Reference Generation](https://github.com/o3de/sig-docs-community/tree/main/tools/o3de-doxygen).
 
 ## Documentation Versioning
 
